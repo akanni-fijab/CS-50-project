@@ -16,7 +16,7 @@ def network_check() -> bool:
     try:
         requests.get("https://google.com", timeout=5)
         return True
-    except requests.ConnectionError, requests.Timeout:
+    except (requests.ConnectionError, requests.Timeout):
         return False
 
 
