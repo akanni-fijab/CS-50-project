@@ -1,5 +1,5 @@
 # Currency Converter
-#### Video Demo: "https://youtu.be/E9roJLsLN9k"
+#### Video Demo: https://youtu.be/E9roJLsLN9k
 #### Description:
 A python script that gets the latest exchange rate of multiple currencies and stores said values in a database for future and offline use.
  I used a sqlite database in order to still have access to relatively recent rates without a network connection
